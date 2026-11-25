@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ChochoPagos</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon.svg">
+<meta name="theme-color" content="#1F4D3A">
+</head>
+<body>
+<div class="top"><h1>ChochoPagos</h1></div>
+<div class="tabs" id="tabs"></div>
+<div class="stage" id="stage"></div>
+<button id="pwaInstall" class="pwa-install" type="button" hidden>Instalar ChochoPagos</button>
+<button class="reset" data-a="reset">Reiniciar demo</button>
+<div id="toast" role="status" aria-live="polite"></div>
+<input id="faceIn" class="vh" type="file" accept="image/*" capture="user" aria-label="Selfie para reconocimiento facial">
+<script src="assets/js/api.js"></script>
+<script src="assets/js/storage.js"></script>
+<script src="assets/js/sync.js"></script>
+<script src="assets/js/pwa.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

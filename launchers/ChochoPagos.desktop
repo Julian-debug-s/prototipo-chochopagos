@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ChochoPagos
+Comment=Abrir el prototipo local de ChochoPagos
+Exec=/bin/sh "/home/julian/Documents/Universidad UDEA/Proyecto Integrador 1/prototipos/Portotipo final/prototipo-chochopagos-realista/launchers/abrir-chochopagos.sh"
+Terminal=true
+Categories=Utility;

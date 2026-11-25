@@ -1,0 +1,19 @@
+{
+  "name": "ChochoPagos - Prototipo",
+  "short_name": "ChochoPagos",
+  "lang": "es-CO",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F3EA",
+  "theme_color": "#1F4D3A",
+  "description": "Prototipo academico local de ChochoPagos",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

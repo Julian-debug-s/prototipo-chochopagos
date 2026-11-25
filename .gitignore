@@ -1,0 +1,33 @@
+# Modelos de IA y entornos de Python (se instalan siguiendo el README)
+whisper/modelos/
+whisper/.venv/
+kokoro-local/
+*.bin
+*.onnx
+*.pt
+*.pth
+*.safetensors
+*.traineddata
+
+# Dependencias
+node_modules/
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Datos generados (base de datos, fotos)
+backend/data/
+*.db
+*.db-*
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

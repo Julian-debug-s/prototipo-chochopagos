@@ -1,0 +1,24 @@
+{
+  "name": "chochopagos-backend",
+  "version": "0.1.0",
+  "description": "Backend de ChochoPagos: persistencia, reglas de negocio y bot de Telegram (uso académico, dinero simulado).",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "test": "node --test test/",
+    "db:reset": "node --env-file-if-exists=.env scripts/reset-db.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.0.0"
+  },
+  "optionalDependencies": {
+    "tesseract.js": "^6.0.0"
+  }
+}
